@@ -4,14 +4,6 @@
     width: 200px;
     height: 200px;
 }
-button{
-    background-color: grey;
-    color: white;
-
-}
-button :hover{
-    color: aliceblue;
-}
 body{
     background-color: aquamarine;
 }
