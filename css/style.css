@@ -1,15 +1,20 @@
 .container{
     background:grey;
-    border: 3px solid black;
-    width: 700px;
-    height:550px;
-    margin-top: 10px;
+    border: 1px solid black;
+    width: 600px;
+    height:480px;
+    margin-top: 20px;
 }
 body{
     background:blanchedalmond;
 }
-button{
-    border: 2px solid black;
+.jumbotron{
+    width: 100%;
+    height: 10%;
 }
-
-    
+/* .col-md-3{
+    float: right;
+} */
+/* .form-group{
+  justify-content: right;
+} */

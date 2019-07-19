@@ -45,6 +45,11 @@ else{
     alert("enter correct date of birth and gender");
 }
 function dayOfTheWeek(){
-    for(i = 0; i >= male.length )
+    for(i = 0; i >= male.length; i++){
+          return male[i];  //││ female.length;
+    }
+    for(i = 0; i >= female.length; i++){
+        return male[i];  //││ female.length;
+  }
     return ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7;
 }
