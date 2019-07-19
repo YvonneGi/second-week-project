@@ -7,29 +7,44 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script rel="stylesheet" href="js/bootstrap.min.js"></script>
-    <script rel="stylesheet" href="js/script.js"></script>
+    <script href="js/script.js"></script>
     <title>Seconde week project</title>
 </head>
 <body>
-        <div class="jumbotron text-center">
-         <h1>Akan names form Detector</h1>
-         <p>Fill out the form below,so as you can know your name.</p>
-        </div>
+        
 <div class="container">
-    <form name="names" onsubmit="return akanNames">
-       <ul>
-        <li><label for="date">Date of birth:</label></li>
-            <li><input type="date" name="date of birth" size="12" /></li>
-            <li><label for="Gender">Gender:</label></li>
-               <li><select name="gender">
-                <option selected="" value="Default">(select your gender)</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-               </select></li>    
-            <li><input type="submit" name="submit" value="Submit" /></li> 
-       </ul>
-         
-    </form> 
+        <div class="jumbotron text-center">
+                <h1>Akan names generator</h1>
+               </div>
+               <form class="form-horizontal" action="/action_page.html">
+                <div class="form-group">
+                  <label class="control-label col-md-2" for="date">Date of birth:</label>
+                  <div class="col-md-10">
+                    <input type="date" class="form-control" id="date" placeholder="Enter date of birth">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-md-2" for="pwd">Gender:</label>
+                  <div class="col-md-10"> 
+                        <select class="form-control" id="gender">
+                                <option>select your gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                              </select>
+                </div>
+                </div>
+                <div class="form-group"> 
+                  <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                    
+                  </div>
+                </div>
+              </form>
+                     
+                              
+
+              
+  
 </div>
     
 </body>

@@ -3,7 +3,7 @@
     background:white;
     width: 350px;
     height: 300px;
-} */
+}
 body{
     background-color: aquamarine;
 }
@@ -24,11 +24,11 @@ form ul li label
     font-size:14px;
 }
     
-form ul li input, select
+form ul li input, select,span
 {
     float: left;
     margin-bottom: 10px;
-}
+} */
     
 [type="submit"] 
 {
