@@ -14,6 +14,7 @@ var genderm = document.getElementById("m").value;
 console.log(genderm);
 var genderf = document.getElementById ("f").value;
 console.log(genderf);
+
     var day =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7;
     var answer = Math.floor(day);
 
@@ -21,7 +22,7 @@ console.log(genderf);
            document.getElementById("demo").innerHTML = "Your Akan name is Kwasi";
          
       }
-            else if(answer === 1 && genderm === "Male")
+            else if (answer === 0 && genderm === "Male")
        {
     document.getElementById("demo").innerHTML = "Your Akan name is Kwadwo";
    
@@ -48,12 +49,12 @@ else if(answer === 6 && genderm === "Male"){
     
 }  
 
-
-        else if(answer === 0 && genderf === "Female"){
+        else if(answer === 0 && genderf === "Female")
+        {
            document.getElementById("demo").innerHTML = "Your Akan name is Akosua" ;
            
         }
-        else if(answer === 1 && genderf === "Female") {
+            else if(answer === 1 && genderf === "Female") {
             document.getElementById("demo").innerHTML = "Your Akan name is Adwoa"; 
         }
         else if(answer === 2 && genderf === "Female"){
@@ -75,6 +76,7 @@ else if(answer === 6 && genderm === "Male"){
         else{
             document.getElementById("demo").innerHTML ="Please enter correct date of birth and gender";
         }
+        return document.getElementById("demo").innerHTML;
     }
     console.log(dayOfTheWeek);
 
