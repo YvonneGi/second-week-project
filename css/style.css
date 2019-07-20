@@ -1,8 +1,8 @@
 .container{
     background:grey;
     border: 1px solid black;
-    width: 600px;
-    height:480px;
+    width: 500px;
+    height:300px;
     margin-top: 20px;
 }
 body{
