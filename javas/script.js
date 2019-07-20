@@ -1,12 +1,16 @@
 var CC;
 
 function dayOfTheWeek(){
-var YY = document.getElementById("years").value;
+var birthday = document.getElementById("date"); 
+var data = new Date (birthday);
+var YY = data.getFullYear();
 console.log(YY);
-var MM = document.getElementById("months").value;
+CC = (YY/100)+1;
+console.log(CC);
+var MM = data.getMonth();
+MM++;
 console.log(MM);
-var DD = document.getElementById("days").value;
-console.log(DD);
+var DD = data.getDay();
 var genderm = document.getElementById("m").value;
 console.log(genderm);
 var genderf = document.getElementById ("f").value;
