@@ -1,7 +1,5 @@
-var CC;
-
 function dayOfTheWeek(){
-var birthday = document.getElementById("date"); 
+var birthday = document.getElementById("date").value; 
 var data = new Date (birthday);
 var YY = data.getFullYear();
 console.log(YY);
@@ -10,7 +8,8 @@ console.log(CC);
 var MM = data.getMonth();
 MM++;
 console.log(MM);
-var DD = data.getDay();
+var DD = data.getDate();
+console.log(DD);
 var genderm = document.getElementById("m").value;
 console.log(genderm);
 var genderf = document.getElementById ("f").value;
@@ -76,10 +75,8 @@ else if(answer === 6 && genderm === "Male"){
         else{
             document.getElementById("demo").innerHTML ="Please enter correct date of birth and gender";
         }
-        return document.getElementById("demo").innerHTML;
     }
-    console.log(dayOfTheWeek());
-  
+    console.log(dayOfTheWeek);
 
 
 
