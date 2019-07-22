@@ -9,57 +9,49 @@
     <title>Second week project</title>
 </head>
 <body>
-    <div class="jumbotron text-center ">
-        <h1>Akan names generator</h1>
-       </div>
-        
-<div class = "container">
-  <div class="row">
-    <div class="col-md-6">
- <h2><strong><em>Origin of Akan Names</em></strong></h2><br>
+  <div class="jumbotron text-center ">
+    <h1>Akan names generator</h1>
+  </div>
+  <div class = "container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2><strong><em>Origin of Akan Names</em></strong></h2><br>
         <p>The Akan people of Ghana frequently name their children<br>after the day of the week they were born<br>
            and the order in which they were born.<br>
            These "day names" have further meanings concerning the soul and character of the person.<br>
            Middle names have considerably more variety and can refer to their birth order,twin status, or an ancestor's middle name.</p>
-    </div>
-    <div class="col-md-6">
-      <h3>Fill out this form to know your Akan name</h3><br>
-            <div class="form-group">
-              <label class="control-label col-md-3"  for="date">Date of birth:</label>
-              <div>
-                  <input type="date" class="form-control" id="date" >
-                  </div>  
-    
-            </div>
-            <div class="form-group">
-              <label class="control-label col-md-3" for="gender">Gender:</label>
-              <div > 
-                    <select class="form-control" id="gender">
-                            <option>select your gender</option>
-                            <option id="m">Male</option>
-                            <option id="f">Female</option>
-                          </select>
-            </div>
-            </div>
-            <div class="form-group"> 
-              <div >
-                <br><button type="submit" class="btn btn-primary" id="submit"
-                onclick = "dayOfTheWeek()">Submit</button>
-               
-                
-              </div>
-            </div>
-            <br> 
-            <p id="demo"></p>
-                 
-    </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Fill out this form to know your Akan name</h3><br>
+        <div class = "form-group">
+          <label class = "control-label col-md-3"  for = "date">Date of birth:</label>
+          <div>
+           <input type = "date" class = "form-control" id = "date" >
+          </div>  
+        </div>
+        <div class="form-group">
+          <label class="control-label col-md-3" for="gender">Gender:</label>
+          <div > 
+            <select class="form-control" id = "gender">
+              <option id="validationMessage">select your gender</option>
+              <option id ="m" value="Male">Male</option>
+              <option id ="f" value="Female">Female</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"> 
+          <div >
+            <br><button type ="submit" class = "btn btn-primary" id="submit"onclick = "dayOfTheWeek()">Submit</button>
+          </div>
+        </div>     
+          <br> <p id="demo"></p>
+      </div>
      
+    </div>
+    <div class="footer">
+      <h4>Copyright &copy;YvonneGi.All right reserved</h4>
+    </div>
   </div>
-  <div class="footer">
-    <h4>Copyright &copy;YvonneGi.All right reserved</h4>
-  </div>
-               
-</div>
-<script src="javas/script.js"></script>
+  <script src="javas/script.js"></script>
 </body>
 </html>
